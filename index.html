@@ -1,20 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Diário de robótica</title>
-    <link rel="stylesheet" href="css/style.css">
-
-
+    <title>Diário de Bordo - Física e Robótica</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>Diário de robótica</header>
-<h1>Nessas aulas, do primeiro trimestreme, vimos os seguintes projetos:</h1>
+    <header>
+        <h1>Análise de Movimento e Mobilidade Urbana</h1>
+        <p>Aula 02 - Atividade 01: Relatório de Experimento</p>
+    </header>
 
+    <main>
+        <section class="container-branco">
+            <h2>1. O Experimento</h2>
+            <p><strong>Questão Investigada:</strong> Como a variação da aceleração de um protótipo robótico impacta o tempo de deslocamento em diferentes superfícies?</p>
+            <p><strong>Procedimento:</strong> Utilizamos um carrinho montado com o kit de robótica, programado para percorrer 2 metros. Medimos o tempo em três tentativas para calcular a velocidade média.</p>
+        </section>
 
-    
+        <section class="container-colorido">
+            <h2>2. Dados Coletados</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tentativa</th>
+                        <th>Distância (m)</th>
+                        <th>Tempo (s)</th>
+                        <th>Velocidade (m/s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2.0</td>
+                        <td>4.2</td>
+                        <td>0.47</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>2.0</td>
+                        <td>4.1</td>
+                        <td>0.48</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>2.0</td>
+                        <td>5.5</td>
+                        <td>0.36</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="nota">* O ponto 3 chama a atenção devido a uma falha na tração do motor.</p>
+        </section>
+
+        <section class="container-branco">
+            <h2>3. Reflexão e Análise de Física</h2>
+            <p>Os resultados mostram uma relação direta entre o atrito e a constância do movimento. Analisando pela cinemática, percebemos que as incertezas (como o atraso no cronômetro manual) influenciam a precisão dos dados.</p>
+            
+            <h3>Relação com a Mobilidade Urbana</h3>
+            <p>Assim como nosso protótipo, a eficiência do transporte público depende de vias bem conservadas para manter a velocidade constante e reduzir o consumo de energia/tempo.</p>
+        </section>
+
+        <section class="container-colorido">
+            <h2>4. Diário de Experimento (Robótica)</h2>
+            <div class="galeria">
+                <img src="foto-robotica.jpg" alt="Foto do protótipo de robótica" width="300">
+                <p>Nesta etapa, ajustamos os sensores ultrassônicos para evitar colisões durante o trajeto de teste.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido durante as aulas de Tecnologia - Alura</p>
+    </footer>
+
 </body>
 </html>
