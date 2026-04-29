@@ -2,12 +2,12 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Comic sans', sans-serif; /* Fonte para parágrafos */
+    font-family: 'Comic sans MS', sans-serif; /* Fonte para parágrafos */
     line-height: 1.6;
 }
 
 h1, h2, h3 {
-    font-family: 'Comic sans', sans-serif; /* Fonte para títulos */
+    font-family: 'Comic sans MS', sans-serif; /* Fonte para títulos */
     color: #2c3e50;
 }
 
