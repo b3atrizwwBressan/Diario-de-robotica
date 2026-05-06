@@ -10,7 +10,7 @@ body {
 
 h2, h3 {
     font-family: 'Impact', sans-serif;
-    color: #442357b1;
+    color: #ffffffde;
 }
 
 
@@ -22,7 +22,7 @@ header {
 }
 
 .container-branco {
-    background-color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.273);
     padding: 40px;
 }
 
@@ -36,7 +36,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background-color: rgba(23, 11, 26, 0.67);
+    background-color: rgba(0, 0, 0, 0.273);
 }
 
 th, td {
@@ -46,14 +46,14 @@ th, td {
 }
 
 th {
-    background-color: #6c34db;
+    background-color: rgba(206, 206, 206, 0.838);
     color: white;
 }
 
 
 img {
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(158, 43, 225, 0.583);
     display: block;
     margin: 20px 0;
 }
