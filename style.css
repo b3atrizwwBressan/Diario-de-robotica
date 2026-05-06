@@ -10,13 +10,13 @@ body {
 
 h2, h3 {
     font-family: 'Impact', sans-serif;
-    color: #b257e387;
+    color: #442357b1;
 }
 
 
 header {
     background-color: #855ddc;
-    color: white;
+    color: rgba(23, 11, 26, 0.67);
     padding: 2rem;
     text-align: center;
 }
