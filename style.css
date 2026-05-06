@@ -27,7 +27,7 @@ header {
 }
 
 .container-colorido {
-    background-color: #f4f7f6; 
+    background-color: rgba(23, 11, 26, 0.67); 
     padding: 40px;
 }
 
@@ -36,7 +36,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background-color: white;
+    background-color: rgba(23, 11, 26, 0.67);
 }
 
 th, td {
