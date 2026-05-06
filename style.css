@@ -36,7 +36,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background-color: rgba(233, 233, 233, 0.895);
+    background-color: rgba(182, 81, 245, 0.895);
 }
 
 th, td {
@@ -46,7 +46,7 @@ th, td {
 }
 
 th {
-    background-color: rgba(206, 206, 206, 0.838);
+    background-color: rgba(235, 235, 235, 0.933);
     color: white;
 }
 
