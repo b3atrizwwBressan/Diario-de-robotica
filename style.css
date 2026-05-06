@@ -10,7 +10,7 @@ body {
 
 h2, h3 {
     font-family: 'Impact', sans-serif;
-    color: #222222de;
+    color: #2e154ade;
 }
 
 
@@ -40,14 +40,14 @@ table {
 }
 
 th, td {
-    border: 1px solid #ffffff;
+    border: 1px solid #cacaca;
     padding: 12px;
     text-align: center;
 }
 
 th {
     background-color: rgba(157, 72, 255, 0.933);
-    color: rgb(153, 63, 255);
+    color: rgb(255, 255, 255);
 }
 
 
