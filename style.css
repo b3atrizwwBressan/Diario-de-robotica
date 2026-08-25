@@ -1,8 +1,7 @@
-
 * {
   box-sizing: border-box;
 }
- 
+
 body { 
   display: flex; 
   flex-direction: column; 
@@ -11,7 +10,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 } 
- 
+
 .cabecalho { 
   background-color: #7e3e1c; 
   padding: 15px 25px; 
@@ -19,44 +18,44 @@ body {
   justify-content: space-between; 
   align-items: center; 
 } 
- 
+
 .cabecalho-link { 
   color: #fff; 
   text-decoration: none; 
 } 
- 
+
 /* corrigido: h1 só fica branco DENTRO do cabeçalho, senão some no fundo claro */
 .cabecalho h1 { 
   color: #fff; 
   font-size: 24px; 
   margin: 0;
 } 
- 
+
 main { 
   flex: 1; 
   padding: 24px;
 } 
- 
+
 main h2 {
   color: #4a3123;
   font-weight: normal;
   margin-bottom: 20px;
 }
- 
+
 section { 
   display: flex; 
   flex-wrap: wrap;
   gap: 16px; 
 } 
- 
+
 /* ESTILOS DO FLASHCARD */
- 
+
 .cartao {
   width: 260px;
   height: 220px;
   perspective: 1000px; /* Efeito 3D de profundidade */
 }
- 
+
 .cartao-interno { 
   position: relative; 
   width: 100%;
@@ -64,7 +63,7 @@ section {
   transition: transform 0.8s; 
   transform-style: preserve-3d; 
 } 
- 
+
 .cartao-frente, 
 .cartao-verso { 
   position: absolute; 
@@ -78,7 +77,7 @@ section {
   flex-direction: column;
   overflow: hidden;
 } 
- 
+
 .cartao-frente p,
 .cartao-verso p {
   margin: 0;
@@ -87,15 +86,15 @@ section {
   line-height: 1.4;
   color: #333;
 }
- 
+
 .cartao-verso { 
   transform: rotateY(180deg); 
 } 
- 
+
 .cartao:hover .cartao-interno { 
   transform: rotateY(180deg); 
 } 
- 
+
 /* antes era <img class="cartao-imagem">; aqui viraram blocos coloridos com ícone,
    pra não depender de fotos externas que podem quebrar o link */
 .cartao-imagem {
@@ -108,22 +107,22 @@ section {
   font-size: 2.8rem;
   flex-shrink: 0;
 }
- 
+
 .cartao-imagem--luz      { background: linear-gradient(135deg, #ffd166, #f4a300); }
 .cartao-imagem--espelho  { background: linear-gradient(135deg, #90caf9, #5c9ded); }
 .cartao-imagem--fenomeno { background: linear-gradient(135deg, #f78fb3, #a78bfa); }
 .cartao-imagem--lente    { background: linear-gradient(135deg, #80cbc4, #4fb3a9); }
 .cartao-imagem--olho     { background: linear-gradient(135deg, #c9b0f0, #9575cd); }
- 
+
 .cartao-verdade .cartao-imagem { background: #52b788; color: #fff; }
 .cartao-mentira .cartao-imagem { background: #e63946; color: #fff; }
- 
+
 footer { 
   background-color: #7e3e1c; 
   padding: 15px 25px; 
   color: #fff; 
 }
- 
+
 footer p {
   margin: 0;
 }
